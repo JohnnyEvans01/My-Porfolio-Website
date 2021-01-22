@@ -1,0 +1,44 @@
+.Project{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 1.2rem 1.2rem 1.5rem 1.2rem;
+    text-align: center;
+    margin: 1rem 0;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.Project .ProjectLogo {
+    width: 95%;
+    height: 150.94px;
+    object-fit: contain;
+    border-radius: 0.28rem;
+    transition: transform 0.5s;
+}
+
+.Project .ProjectLogo:hover {
+    transform: scale(1.055);
+}
+
+.Project .ProjectDescription h2 {
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #212338;
+}
+
+.Project .ProjectDescription a {
+    color: black;
+    display: inline-block;
+    margin-top: 0.25rem;
+    font-size: 1.1rem;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0.4rem;
+    transition: border-bottom 0.4s ease-in-out;
+    color: #212338;
+}
+
+.Project .ProjectDescription a:hover {
+    border-bottom: 2.2px solid #e53e3e;
+    
+}

@@ -1,0 +1,23 @@
+.HamburgerIcon {
+    display: none;
+    cursor: pointer;
+}
+
+.HamburgerIcon:hover {
+    transition: all 0.5s ease-in-out;
+    opacity: 0.5;
+}
+
+.Bar1, .Bar2, .Bar3 {
+    width: 42px;
+    height: 4.8px;
+    background-color: #fff;
+    margin: 8px 0;
+    transition: 0.4s;
+}
+
+@media (max-width: 570px){
+    .HamburgerIcon{
+        display: block;
+    }
+}

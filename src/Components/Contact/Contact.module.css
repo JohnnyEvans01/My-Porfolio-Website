@@ -1,0 +1,26 @@
+.Contact{
+    display: grid;
+    grid-template-columns: 90%;
+    margin-top: 3rem;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.Contact .Con {
+    padding: 2.1rem 1.1rem 5rem 1.1rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 1.4rem;
+}
+
+.Contact .Head {
+    font-family: "Amatic SC", cursive;
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.Contact ul li {
+    line-height: 1.55rem;
+    font-size: 1.2rem;
+    color: rgb(70, 67, 67);
+}

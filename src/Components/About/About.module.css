@@ -1,0 +1,84 @@
+.About{
+    display: grid;
+    grid-template-columns: 65%;
+    justify-content: space-evenly;
+}
+
+.AboutContent{
+    margin: 3.5rem 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 2.3rem 2.3rem 4.5rem 2.3rem;
+    border-radius: 1.5rem;
+}
+
+.AboutContent .AboutText {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: "Amatic SC", cursive;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+ 
+.AboutContent .Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutContent .Body {
+    margin-top: 1rem;
+}
+
+.AboutContent .Body .IntroInfo{
+    margin-top: 2rem;
+    line-height: 1.7rem;
+    font-size: 1.03rem;
+}
+
+.AboutContent .Education,
+.AboutContent .Skills,
+.AboutContent .Languages,
+.AboutContent .Interests {
+    margin-top: 1rem;
+}
+
+.AboutContent .PsNote{
+    margin-top: 1.5rem;
+    font-size: 1.03rem;
+}
+
+.AboutContent .PsNote a{
+    color: black;
+    font-weight: bolder;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 450ms;
+}
+
+.AboutContent .PsNote a:hover{
+    border-bottom: 2px solid black;
+}
+
+.AboutContent .Education h3,
+.AboutContent .Skills h3,
+.AboutContent .Languages h3,
+.AboutContent .Interests h3{
+    margin-bottom: 0.2rem;
+}
+
+.AboutContent .Education li,
+.AboutContent .Skills li,
+.AboutContent .Languages li,
+.AboutContent .Interests li {
+    line-height: 1.8rem;
+}
+
+@media (max-width: 576px){
+    .About{
+        grid-template-columns: 93%;
+    }
+
+    .AboutContent{
+        padding: 2rem;
+    }    
+}
