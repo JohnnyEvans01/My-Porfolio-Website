@@ -1,8 +1,7 @@
 .Contact{
     display: grid;
-    grid-template-columns: 90%;
-    margin-top: 3rem;
-    text-align: center;
+    grid-template-columns: 75%;
+    margin: 3rem 0;
     justify-content: space-evenly;
 }
 
@@ -15,12 +14,96 @@
 
 .Contact .Head {
     font-family: "Amatic SC", cursive;
-    margin: 1rem 0;
+    margin: 1rem 0 0.5rem 0;
     font-size: 3rem;
+    text-align: center;
 }
 
-.Contact ul li {
-    line-height: 1.55rem;
-    font-size: 1.2rem;
-    color: rgb(70, 67, 67);
+.Contact .ContactForm {
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+}
+
+.Contact .ContactForm form input,
+.Contact .ContactForm form textarea,
+.Contact .ContactForm form button {
+    display: block;
+    width: 100%;
+    border-radius: 0.35rem;
+}
+
+.Contact .ContactForm .InputContainer {
+    margin: 1.2rem 0;
+}
+
+.Contact .ContactForm .InputContainer label{
+    display: block;
+    width: 100%;
+    margin: 0.35rem 0 0.35rem 0.18rem;
+    font-size: 1.1rem;
+    color: #212338;
+}
+
+.Contact .ContactForm .InputContainer input,
+.Contact .ContactForm .InputContainer textarea {
+    padding: 0.7rem;
+    border: 2px solid #ccc;
+}
+
+.Contact .ContactForm .InputContainer textarea {
+    width: 100%;
+    padding: 12px;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+    height: 200px;
+    font-size: 1rem;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.Contact .ContactForm .InputContainer input:focus,
+.Contact .ContactForm .InputContainer textarea:focus {
+    outline: none;
+    border: 2px solid gray;
+    transition: all 450ms ease-in-out;
+}
+
+.Contact .ContactForm .Button{
+    cursor: pointer;
+    padding: 0.8rem 2rem;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-radius: 1rem;
+    border: 2px solid #e53e3e;
+    background-color: #e53e3e;
+    color: #fff;
+    transition: all 450ms ease-in-out;
+}
+
+.Contact .ContactForm .Button:hover{
+    opacity: 0.8;
+    color: #fff;
+}
+
+@media (max-width: 500px){
+    .Contact .ContactForm {
+        grid-template-columns: 95%;
+    }
+
+    .Contact{
+        grid-template-columns: 90%;
+    }
+}
+
+@media (max-width: 800px){
+    .Contact .ContactForm {
+        grid-template-columns: 80%;
+    }
+
+    .Contact{
+        grid-template-columns: 90%;
+    }
 }

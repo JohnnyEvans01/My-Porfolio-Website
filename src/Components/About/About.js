@@ -26,7 +26,8 @@ function About(){
                     <div className={classes.Education}>
                         <h3>Education</h3>
                         <ul>
-                            <li> - Bsc. Automotive Engineering, Gazi University</li>
+                            <li> - Bsc. Automotive Engineering, Gazi University - Turkey</li>
+                            <li> - ST. Francis Xavier Minor Seminary, High School - Ghana</li>
                         </ul>
                     </div>
                     <div className={classes.Skills}>
