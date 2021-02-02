@@ -78,7 +78,7 @@ function SelectedProject(){
                                 {selectProject.hostedUrl ? <li> - View hosted project <a href={selectProject.hostedUrl}>Here</a></li> : null}
                             </ul>
                         </div>
-                        <p className={classes.GoBackLink}>Go back all projects? Click <NavLink to="/my-works">Here!</NavLink></p>
+                        <p style={{textAlign: 'center', fontSize: '1.08rem'}}>To go back all projects? Click <NavLink to="/my-works">Here!</NavLink></p>
                     </div>
                 </div>
             </div>

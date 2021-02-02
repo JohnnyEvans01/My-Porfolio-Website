@@ -26,18 +26,19 @@ function About(){
                     <div className={classes.Education}>
                         <h3>Education</h3>
                         <ul>
-                            <li> - Bsc. Automotive Engineering, Gazi University - Turkey</li>
-                            <li> - ST. Francis Xavier Minor Seminary, High School - Ghana</li>
+                            <li> - Bsc. Automotive Engineering, Gazi University</li>
                         </ul>
                     </div>
                     <div className={classes.Skills}>
                         <h3>Skills</h3>
                         <ul>
-                            <li> - HTML, CSS, JavaScript</li>
+                            <li> - HTML5</li>
+                            <li> - CSS3</li>
+                            <li> - JavaScript</li>
                             <li> - Bootstrap</li>
                             <li> - React JS and Redux</li>
                             <li> - Responsive Web Design</li>
-                            <li> - Git (version control)</li>
+                            <li> - Git (Version control)</li>
                             <li> - On-Page SEO</li>
                         </ul>
                     </div>

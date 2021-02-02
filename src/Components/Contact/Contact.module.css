@@ -13,9 +13,10 @@
 }
 
 .Contact .Head {
-    font-family: "Amatic SC", cursive;
+    font-family: cursive;
+    color: #212338;
     margin: 1rem 0 0.5rem 0;
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-align: center;
 }
 

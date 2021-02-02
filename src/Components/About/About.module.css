@@ -15,8 +15,9 @@
 .AboutContent .AboutText {
     text-align: center;
     margin-bottom: 2rem;
-    font-family: "Amatic SC", cursive;
-    font-size: 3rem;
+    font-family: cursive;
+    color: #212338;
+    font-size: 2rem;
     font-weight: bolder;
 }
  

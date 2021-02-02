@@ -9,10 +9,11 @@
 }
 
 .Project .ProjectLogo {
+    margin-top: 1rem;
     width: 95%;
     height: 150.94px;
     object-fit: contain;
-    border-radius: 0.28rem;
+    border-radius: 0.68rem;
     transition: transform 0.5s;
 }
 
@@ -29,10 +30,12 @@
 
 .Project .ProjectDescription a {
     color: black;
+    font-weight: 500;
     display: inline-block;
     margin-top: 0.25rem;
     font-size: 1.1rem;
     border-bottom: 2px solid transparent;
+    border-radius: 0 0 0.3rem 0.3rem;
     padding-bottom: 0.4rem;
     transition: border-bottom 0.4s ease-in-out;
     color: #212338;

@@ -5,10 +5,10 @@ import { NavLink } from "react-router-dom";
 function Project(props){
     return(
         <div className={classes.Project}>
-            <img className={classes.ProjectLogo} src={props.image} alt="sas"/>
+            <img onClick={props.clicked} className={classes.ProjectLogo} src={props.image} alt="sas"/>
             <div className={classes.ProjectDescription}>
                 <h2>{props.title}</h2>
-                <NavLink to={props.destination}>View Project</NavLink>
+                <a href={props.destination} target="_blank">View Code</a>
             </div>
         </div>
     );

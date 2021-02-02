@@ -1,26 +1,41 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import emailjs from 'emailjs-com';
+import Spinner from "../UI/Spinner/Spinner";
+import SuccessModal from "../UI/SuccessModal/SuccessModal.js";
+import ErrorModal from "../UI/ErrorModal/ErrorModal";
 import classes from "./Contact.module.css";
 
 function Contact(){
+    const [isLoading, setIsLoading] = useState(false);
+    const [succesfullySent, setSuccesfullySent] = useState(false);
+    const [isError, setIsError] = useState(false);
 
     useEffect(() => {
         document.title = 'Contact Me | John Evans Dakurah';
     });
 
     function sendEmail(event) {
+        setIsLoading(true);
         event.preventDefault();
         emailjs.sendForm('service_3rtt5rh', 'template_4ofvs6e', event.target, 'user_KxMhEOdNiHnwJW5mIS8BY')
           .then((result) => {
               console.log(result.text);
+              setIsLoading(false);
+              setSuccesfullySent(true);
               event.target.reset();
           }, (error) => {
+              setIsLoading(false);
+              setIsError(true);
+              event.target.reset();
               console.log(error.text);
           });
     }
 
     return(
         <div className={classes.Contact}>
+            { succesfullySent && <SuccessModal closeModal={() => setSuccesfullySent(false)}/> }
+            { isError && <ErrorModal closeModal={() => setIsError(false)}/> }
+            { isLoading ? <Spinner /> :
             <div className={classes.Con}>
                 <h1 className={classes.Head}>Contact me!</h1>
                 <div className={classes.ContactForm}>
@@ -48,7 +63,7 @@ function Contact(){
                         </form>
                     </div>
                 </div>
-            </div>
+            </div> }
         </div>
     );
 }

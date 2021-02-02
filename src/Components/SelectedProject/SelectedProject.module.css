@@ -21,11 +21,11 @@
     cursor: pointer;
     border-radius: 0.6rem;
     border-radius: 0.28rem;
+    transition: all 600ms ease-in-out;
 }
 
 .SelectedProject .Image img:hover{
     transform: scale(1.009);
-    transition: all 450ms ease-in-out;
     opacity: 0.7;
 }
 
