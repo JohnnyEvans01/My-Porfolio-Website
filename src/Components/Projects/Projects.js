@@ -18,7 +18,6 @@ function Projects(){
                 title,
                 builtWith,
                 github,
-                hostedUrl,
                 slug,
                 modalImage{
                     asset->{
