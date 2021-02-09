@@ -16,14 +16,18 @@ function Projects(){
         sanityClient
             .fetch(`*[_type == "post"]{
                 title,
-                projectType,
                 builtWith,
-                duration,
-                date,
                 github,
                 hostedUrl,
                 slug,
-                mainImage{
+                modalImage{
+                    asset->{
+                        _id,
+                        url
+                    },
+                    alt
+                },
+                displayImage{
                     asset->{
                         _id,
                         url
@@ -55,11 +59,11 @@ function Projects(){
                                 key={project.title}
                                 clicked={() => setSelectedImage({
                                     title: project.title,
-                                    imageUrl: project.mainImage.asset.url,
+                                    imageUrl: project.modalImage.asset.url,
                                     builtWith: project.builtWith
                                 })}
                                 destination={project.github}
-                                image={project.mainImage.asset.url}
+                                image={project.displayImage.asset.url}
                                 title={project.title}
                         />
                     );

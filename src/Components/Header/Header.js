@@ -20,9 +20,9 @@ function Header(props){
                   <li>
                     <SocialIcon style={{height: 35, width: 35}} target="_blank" bgColor="#000" fgColor="#fff" url="https://github.com/JohnnyEvans01"/>
                   </li>
-                  {/* <li>
+                  <li>
                     <SocialIcon style={{height: 35, width: 35}} target="_blank" fgColor="#fff" url="https://web.facebook.com/johnny.evans.8/"/>
-                  </li> */}
+                  </li>
                   <li>
                     <SocialIcon style={{height: 35, width: 35}} target="_blank" fgColor="#fff" url="https://www.linkedin.com/login"/>
                   </li>

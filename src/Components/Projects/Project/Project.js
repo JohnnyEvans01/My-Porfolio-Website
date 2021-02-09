@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Project.module.css";
-import { NavLink } from "react-router-dom";
 
 function Project(props){
     return(

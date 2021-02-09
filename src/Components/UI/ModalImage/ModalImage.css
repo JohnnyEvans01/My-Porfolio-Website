@@ -19,11 +19,12 @@
   
   /* Modal Content (Image) */
   .modal-content {
-    margin: 18% auto 0 auto;
+    margin: 15% auto 0 auto;
     display: block;
     width: 80%;
     max-width: 700px;
-    border-radius: 0.6rem;
+    border-radius: 0.1rem;
+    cursor: pointer;
   }
   
   /* Caption of Modal Image (Image Text) - Same Width as the Image */

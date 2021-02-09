@@ -9,23 +9,8 @@ export default {
       type: 'string',
     },
     {
-      name: 'projectType',
-      title: "Project Type",
-      type: 'string',
-    },
-    {
       name: 'builtWith',
       title: 'Built With',
-      type: 'string',
-    },
-    {
-      name: 'duration',
-      title: 'Duration',
-      type: 'string',
-    },
-    {
-      name: 'date',
-      title: 'Date',
       type: 'string',
     },
     {
@@ -34,37 +19,26 @@ export default {
       type: 'string',
     },
     {
-      name: 'hostedUrl',
-      title: 'Hosted Url',
-      type: 'string',
-    },
-    {
-      name: 'slug',
-      title: 'Slug',
-      type: 'slug',
-      options: {
-        source: 'title',
-        maxLength: 96,
-      },
-    },
-    {
       name: 'author',
       title: 'Author',
       type: 'reference',
       to: {type: 'author'},
     },
     {
-      name: 'mainImage',
-      title: 'Main image',
+      name: 'displayImage',
+      title: 'Display image',
       type: 'image',
       options: {
         hotspot: true,
       },
     },
     {
-      name: 'body',
-      title: 'Body',
-      type: 'blockContent',
+      name: 'modalImage',
+      title: 'Modal image',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
     },
   ],
 

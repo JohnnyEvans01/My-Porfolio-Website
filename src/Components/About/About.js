@@ -18,9 +18,9 @@ function About(){
                 </div>
                 <div className={classes.Body}>
                     <p className={classes.IntroInfo}>
-                        Hi! I am John Evans Dakurah! I'm a Front End Web (React) Developer currently living and studying in Turkey. I have over 1.5 
+                        Hi! I am John Evans Dakurah! A Front End Web (React) Developer currently living and studying in Turkey. I have over 1.5 
                         years of experience in creating very attractive, mobile friendly and well 
-                        optimized webpages with HTML, CSS, Bootstrap, JavaScript, React Js, Redux and more. This website is my digital 
+                        optimized webpages that are SEO driven with HTML, CSS, Bootstrap, JavaScript, React Js, Redux and more. This website is my digital 
                         garden - a compendium of the things I've learnt and created over the years. This site has no Ads, sponsors nor affiliates.
                     </p>
                     <div className={classes.Education}>
