@@ -21,10 +21,10 @@ function Header(props){
                     <SocialIcon style={{height: 35, width: 35}} target="_blank" bgColor="#000" fgColor="#fff" url="https://github.com/JohnnyEvans01"/>
                   </li>
                   <li>
-                    <SocialIcon style={{height: 35, width: 35}} target="_blank" fgColor="#fff" url="https://web.facebook.com/johnny.evans.8/"/>
+                    <SocialIcon style={{height: 35, width: 35}} target="_blank" fgColor="#fff" url="https://web.facebook.com/#"/>
                   </li>
                   <li>
-                    <SocialIcon style={{height: 35, width: 35}} target="_blank" fgColor="#fff" url="https://www.linkedin.com/login"/>
+                    <SocialIcon style={{height: 35, width: 35}} target="_blank" fgColor="#fff" url="https://www.linkedin.com/login/#" />
                   </li>
               </ul>
               <HamburgerIcon wasClicked={props.wasClicked}/>

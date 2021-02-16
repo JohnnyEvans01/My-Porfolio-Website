@@ -18,7 +18,7 @@ function About(){
                 </div>
                 <div className={classes.Body}>
                     <p className={classes.IntroInfo}>
-                        Hi! I am John Evans Dakurah! A Front End Web (React) Developer currently living and studying in Turkey. I have over 1.5 
+                        Hi! I am John Evans Dakurah! A Front End Web Developer currently living in Ghana. I have over 1.5 
                         years of experience in creating very attractive, mobile friendly and well 
                         optimized webpages that are SEO driven with HTML, CSS, Bootstrap, JavaScript, React Js, Redux and more. This website is my digital 
                         garden - a compendium of the things I've learnt and created over the years. This site has no Ads, sponsors nor affiliates.
@@ -36,7 +36,7 @@ function About(){
                             <li> - CSS3</li>
                             <li> - JavaScript</li>
                             <li> - Bootstrap</li>
-                            <li> - React JS and Redux</li>
+                            <li> - React JS</li>
                             <li> - Responsive Web Design</li>
                             <li> - Git (Version control)</li>
                             <li> - On-Page SEO</li>
@@ -45,7 +45,7 @@ function About(){
                     <div className={classes.Languages}>
                         <h3>Languages</h3>
                         <ul>
-                            <li> - English, Turkish and Dagaare</li>
+                            <li> - English and Turkish</li>
                         </ul>
                     </div>
                     <div className={classes.Interests}>
