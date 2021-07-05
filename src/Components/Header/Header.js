@@ -18,13 +18,13 @@ function Header(props){
               </ul>
               <ul>
                   <li>
-                    <SocialIcon style={{height: 35, width: 35}} target="_blank" bgColor="#000" fgColor="#fff" url="https://github.com/JohnnyEvans01"/>
+                    <SocialIcon style={{height: 35, width: 35}} target="_blank" bgColor="#000" fgColor="#fff" url="https://github.com/developedbyjed"/>
                   </li>
                   <li>
-                    <SocialIcon style={{height: 35, width: 35}} target="_blank" fgColor="#fff" url="https://web.facebook.com/#"/>
+                    <SocialIcon style={{height: 35, width: 35}} target="_blank" fgColor="#fff" url="https://twitter.com/home?lang=en"/>
                   </li>
                   <li>
-                    <SocialIcon style={{height: 35, width: 35}} target="_blank" fgColor="#fff" url="https://www.linkedin.com/login/#" />
+                    <SocialIcon style={{height: 35, width: 35}} target="_blank" fgColor="#fff" url="https://www.linkedin.com/in/j-e-dakurah-824a0a216/" />
                   </li>
               </ul>
               <HamburgerIcon wasClicked={props.wasClicked}/>
